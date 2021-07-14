@@ -1,0 +1,193 @@
+.egg-section {
+    @include flexCenter;
+    .egg-section-picture {
+        width: 50%;
+    }
+    .egg-section-text {
+        width: 50%;
+        padding: 5%;
+        h2 {
+            margin-top: -15%;
+            font-size: 2.7rem;
+            color: $Very-dark-desaturated-blue;
+        }
+        .egg-section-paragraph {
+            margin-top: 5%;
+            color: $Dark-grayish-blue;
+        }
+        .learn-more-1 {
+            margin-top: 5%;
+            border-bottom: 2px solid $Yellow;
+            width: 18%;
+        }
+    }
+    .egg-picture {
+        width: 100%;
+        margin-top: -5px;
+    }
+    .egg-picture-mobile {
+        display: none;
+    }
+}
+
+.cup-section {
+    @include flexCenter;
+    .cup-section-picture {
+        width: 50%;
+    }
+    .cup-section-text {
+        width: 50%;
+        padding: 5%;
+        h2 {
+            margin-top: -15%;
+            font-size: 2.7rem;
+            color: $Very-dark-desaturated-blue;
+        }
+        .cup-section-paragraph {
+            margin-top: 5%;
+            color: $Dark-grayish-blue;
+        }
+        .learn-more-2 {
+            margin-top: 5%;
+            border-bottom: 2px solid $Yellow;
+            width: 18%;
+        }
+    }
+    .cup-picture {
+        width: 100%;
+    }
+    .cup-picture-mobile {
+        display: none;
+    }
+}
+
+.strawberry-orange-section {
+    @include flexCenter;
+    margin-top: -5px;
+}
+
+.strawberry-section {
+    // width: 50%;
+    .strawberry-mobile-pic {
+        display: none;
+    }
+    .strawberry-pic {
+        width: 100%;
+        position: relative;
+    }
+    .strawberry-text {
+        position: absolute;
+        margin-top: -17%;
+        text-align: center;
+        width: 50%;
+    }
+    .strawberry-header {
+        font-size: 2rem;
+        color: $Dark-desaturated-cyan-graphic-design-text;
+    }
+    .strawberry-paragraph {
+        color: $Dark-desaturated-cyan-graphic-design-text;
+        font-size: 0.9rem;
+        padding: 23px 22%;
+        text-align: center;
+    }
+}
+
+.orange-section {
+    // width: 50%;
+    .orange-mobile-pic {
+        display: none;
+    }
+    .orange-pic {
+        width: 100%;
+        position: relative;
+    }
+    .orange-text {
+        position: absolute;
+        margin-top: -17%;
+        text-align: center;
+    }
+    .orange-header {
+        font-size: 2rem;
+        color: $Dark-blue-photography-text;
+    }
+    .orange-paragraph {
+        color: $Dark-blue-photography-text;
+        font-size: 0.9rem;
+        padding: 23px 22%;
+        text-align: center;
+    }
+}
+
+.testimonials {
+    background-color: $White;
+    text-align: center;
+    h4 {
+        font-size: 1.5rem;
+        color: $Dark-grayish-blue;
+        margin-top: 10%;
+        letter-spacing: 1.0rem;
+        text-transform: uppercase;
+    }
+    .testimonials-profile {
+        @include flexCenter;
+        margin-top: 5%;
+        padding: 0rem 6rem;
+        h6 {
+            margin-top: 15%;
+            font-size: 1.2rem;
+            color: $primary-color;
+        }
+        .testimonials-paragraph {
+            line-height: 1.5rem;
+            color: $Very-dark-desaturated-blue;
+        }
+        .job-profile {
+            margin-top: 10px;
+            color: $Grayish-blue;
+        }
+    }
+    .profile-pic {
+        border-radius: 100px;
+    }
+}
+
+.footer-four-section {
+    @include flexCenter;
+    .footer-pic {
+        width: 25%;
+        margin-top: 12%;
+    }
+}
+
+.footer-nav-section {
+    background-color: $Dark-moderate-cyan-footer;
+    text-align: center;
+    .footer-logo {
+        margin-top: 5%;
+    }
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            list-style: none;
+            padding: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: $Dark-desaturated-cyan-graphic-design-text;
+        }
+    }
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        text-decoration: none;
+        list-style: none;
+        li {
+            padding: 20px;
+        }
+    }
+}
